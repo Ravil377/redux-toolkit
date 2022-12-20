@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.container > div {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px 10px;
+}

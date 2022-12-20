@@ -1,0 +1,22 @@
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+}
+.input button {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.input ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
