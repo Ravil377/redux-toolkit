@@ -1,11 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 export interface InputState {
-  value: string
+  names: string[] //value: string
 }
 
 const initialState: InputState = {
-  names: [],
+  names: [] as string[] //names: [],
 }
 
 export const inputState = createSlice({
